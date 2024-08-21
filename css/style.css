@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+#theme:checked ~ #fundo {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.cabecalho {
+  margin-bottom: 45px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#fundo {
+  margin: 0px;
+  padding: 0px;
+}
+
+#over {
+  color: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  margin-top: 20px;
+}
+
+#facebook {
+  background-color: hsl(227, 47%, 96%);
+  height: 220px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#face_gradient {
+  height: 5px;
+  width: 260px;
+  background-color: hsl(208, 92%, 53%);
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#facebook_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  gap: 10px;
+}
+
+#facebook_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#twitter {
+  background-color: hsl(227, 47%, 96%);
+  height: 220px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#twitter_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  gap: 10px;
+}
+
+#twitter_gradient {
+  height: 5px;
+  width: 260px;
+  background-color: hsl(203, 89%, 53%);
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#twitter_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#twitter_desc_up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+#instagram {
+  background-color: hsl(227, 47%, 96%);
+  height: 220px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#insta_gradient {
+  height: 5px;
+  width: 260px;
+  background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#instagram_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  gap: 10px;
+}
+
+#instagram_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#insta_desc_up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+#youtube {
+  background-color: hsl(227, 47%, 96%);
+  height: 220px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#yt_gradient {
+  height: 5px;
+  width: 260px;
+  background-color: hsl(348, 97%, 39%);
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#youtube_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  gap: 10px;
+}
+
+#youtube_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#yt_desc_up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding-top: 14px;
+}
+
+#Overview_divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+}
+
+#Overview_divs2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+
+#facebook_pg {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#facebook_pg_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#facebook_pg_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+#facebook_lk {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#facebook_lk_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#facebook_lk_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#insta_lk {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#insta_lk_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#insta_lk_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#insta_pw {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#insta_pw_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#insta_pw_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#twitter_rt {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#twitter_rt_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#twitter_rt_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#twitter_lk {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#twitter_lk_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#twitter_lk_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#yt_lk {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#yt_lk_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#yt_lk_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#yt_vw {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#yt_vw_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#yt_vw_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+p {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 55px;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#cbc2 {
+  color: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  margin-top: 50px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+p {
+  color: #35ab8b;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 12px;
+  font-style: normal;
+}
+
+p4 {
+  color: hsl(356, 69%, 56%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 12px;
+  font-style: normal;
+}
+
+p2 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4px;
+}
+
+p1 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 12px;
+  font-style: normal;
+}
+
+p3 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 32px;
+}
+
+#theme ~ #icons {
+  background-color: white;
+}
+#theme ~ #icons h1 {
+  color: hsl(230, 17%, 14%);
+}
+#theme ~ #icons h2 {
+  color: hsl(230, 17%, 14%);
+}
+#theme ~ #icons h3 {
+  color: hsl(228, 12%, 44%);
+}
+#theme ~ #icons h4 {
+  color: hsl(230, 17%, 14%);
+}
+
+#theme:checked ~ #fundo #cbc2 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #over {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #icons h1 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #icons h2 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #icons #facebook {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #icons #twitter {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #icons #instagram {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #icons #youtube {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs h4 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #Overview_divs #facebook_pg {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs #facebook_lk {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs #insta_lk {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs #insta_pw {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs2 #twitter_rt_img p {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #Overview_divs2 h4 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #fundo #Overview_divs2 #twitter_rt {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs2 #twitter_lk {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs2 #yt_lk {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #fundo #Overview_divs2 #yt_vw {
+  background-color: hsl(228, 28%, 20%);
+}/*# sourceMappingURL=style.css.map */
